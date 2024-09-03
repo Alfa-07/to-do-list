@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height :100vh;
+    background-color:#f9f9f9;
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+.todo-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+input {
+    width: calc(100% - 70px);
+    padding: 10px;
+    font-size: 1em;
+}
+button {
+    padding: 10px;
+    font-size: 1em;
+    margin-top : 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
